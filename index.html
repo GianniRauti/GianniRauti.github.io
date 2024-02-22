@@ -1,19 +1,71 @@
 <!DOCTYPE html>
 <html>
-    
-  <head>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <body>
-
-    <div class="container">
-      <h1>My personal web site.</h1>
-
-      <p>Hello, Ted Juju Wang.</p>
-      
-
-   </div>
-
+  
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-bar-block" style="width:15%;background-color:rgb(254,255,234)">
+    <h3 class="w3-bar-item">Menu</h3>
+    <a href="#" class="w3-bar-item w3-button">Introduction</a>
+    <a href="#" class="w3-bar-item w3-button">Meal 1</a>
+    <a href="#" class="w3-bar-item w3-button">Meal 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button">Meal 4</a>
+    <a href="#" class="w3-bar-item w3-button">Meal 5</a>
+    <a href="#" class="w3-bar-item w3-button">Meal 6</a>
+  </div>
+  
+  <!-- Page Content -->
+  <div style="margin-left:15%">
+  
+  <div class="w3-container" style= "background-color:rgb(66,66,66)">
+    <h1>Gianni's Personal Project Page</h1>
+  </div>
+  
+  <img src="img_car.jpg" alt="Car" style="width:100%">
+  
+  <div class="w3-container">
+  <h2>Title</h2>
+  <p>Text.</p>
+  <p>Text.</p>
+  </div>
+  
+  </div>
+        
   </body>
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:rgb(252,252,98);font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax"></div>
+
+
 </html>
