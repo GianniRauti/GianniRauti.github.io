@@ -10,4 +10,4 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax_percent (scrolling animation)
-- https://www.w3schools.com/w3css/w3css_sidebar.asp (sidebar)
+- https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp (sidebar)
