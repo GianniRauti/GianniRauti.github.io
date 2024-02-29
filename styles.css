@@ -21,7 +21,7 @@ h1{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #c9c9c9;
+    background-color: #a3a3a3;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -30,14 +30,16 @@ h1{
   /* Sidebar links */
   .sidebar a {
     display: block;
-    color: black;
+    color: #feffea;
     padding: 16px;
     text-decoration: none;
+    text-align: center;
   }
   
   /* Active/current link */
   .sidebar a.active {
     background-color: #fcfc62;
+    text-align: center;
     color: #424242;
   }
   
@@ -51,14 +53,14 @@ h1{
   div.content {
     margin-left: 200px;
     padding: 1px 16px;
-    height: 1000px;
+    height: 100%;
   }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
-      height: 120%;
+      height: 100%;
       position: relative;
     }
     .sidebar a {float: left;}
@@ -66,29 +68,24 @@ h1{
   }
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     .sidebar a {
       text-align: center;
       float: none;
     }
   }
-  .parallax{
-    margin-left: 15%;
-    height:1000px;
-    width:100%;
-    background-color:#424242;
-    font-size:36px;
-    color: #fefefe;
+  #home-height{
+    height: 70px
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
   :root {
-      --bg-gradient: radial-gradient(circle, rgba(44,55,111,1) 46%, rgba(87,26,70,1) 100%);
-      --border-gradient: linear-gradient(to right, rgb(193, 193, 237), rgb(234, 193, 255)) 1;
-      --color1: white;
-      --color2: rgb(67, 77, 131);
-      --color3: rgb(93, 102, 148);
+      --bg-gradient: radial-gradient(circle, #424242 50%,#c9c9c9 100%);
+      --border-gradient: linear-gradient(to right, #fcfc62, #fcfc62) 1;
+      --color1: #feffea;
+      --color2: #fcfc62;
+      --color3: #fcfc62;
   }
   
   html{
@@ -107,7 +104,7 @@ h1{
   
   .header{
       height: 100px;
-      width: 100%;
+      width: 110%;
       display: block;
       background-color: rgba(0, 0, 0, 0.378);
       display: flex;
