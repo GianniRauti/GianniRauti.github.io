@@ -10,3 +10,4 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 - https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp (sidebar)
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text (dropdown)
